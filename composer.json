@@ -1,0 +1,22 @@
+{
+    "name": "kum/olx-crawler",
+    "autoload": {
+        "psr-4": {
+            "Kum\\OlxCrawler\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Azhari",
+            "email": "azharisaputrasikumbang@gmail.com"
+        }
+    ],
+    "require": {
+        "fabpot/goutte": "^4.0"
+    },
+    "require-dev": {
+        "symfony/panther": "^2.1",
+        "dbrekelmans/bdi": "^1.3",
+        "symfony/var-dumper": "^7.1"
+    }
+}
